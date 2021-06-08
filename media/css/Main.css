@@ -1,0 +1,491 @@
+	*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	}
+
+
+
+	.container {
+	max-width: 1024px;
+	width: 100%;
+	margin: 0 auto;
+	}
+
+	.Breadcrumbs__content {
+	border: 1px solid #dfdfdf;
+	border-radius: 5px;
+	box-shadow: 0px 0px 1px;
+	width: 100%;
+	margin: 0 auto;
+	height: 30px;
+	margin: 10px 0px 0px 0px;
+	}
+
+	.title__breadcrumbs {
+	font-family: 'Segoe UI', sans-serif;
+	color: #a6a6a6;
+	}
+
+	.Breadcrumbs__inner {
+	padding: 4px 4px 4px 20px;	
+	}
+
+	.title {
+	display: flex;
+	}
+
+	.book__buy {
+	max-width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	border: 1px solid #dfdfdf;
+	margin: 10px 0px 0px;
+	display: flex;
+	}
+
+	.img__book img {
+	border: 1px solid #c8c8c8;
+	width: 260px;
+	height: 390px;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+	}
+
+	.content {
+	padding: 30px;
+	}
+
+	.content__inner {
+	display: flex;
+	}
+
+	.title-book {
+	font-family: "Segoe UI Light", sans-serif;
+	font-weight: 300;
+	font-size: 40.63px;
+	color: #595959;
+	flex-direction: column;
+	}
+
+	.title__text {
+	margin: 0px 0px 0px 40px;
+	}
+
+	.text__info {
+	font-family: "Segoe UI Symibold", sans-serif;
+	font-size: 16px;
+	color: #7e7e7e;
+	margin: 20px 0px 0px 10px;
+	line-height: 1.75;
+	}
+
+	.price__block {
+	border: 1px solid #c8c8c8;
+	width: 610px;
+	height: 168px;
+	margin-top: 10px;
+	}
+
+	.price__inner {
+	padding: 0px 25px 25px 25px;
+	}
+
+	.price {
+	font-family: "Segoe UI", sans-serif;
+	color: #015699;
+	font-size: 35.77px;
+	}
+
+	.span1 {
+	color: #e45858;
+	font-weight: 900;
+	}
+
+	.cart {
+	position: absolute;
+	right: 0;
+	bottom: 25px;
+	background: linear-gradient(to bottom,#8fd271, #86c66a , #7bb461);
+	cursor: pointer;
+	width: 195px;
+	height: 40px;
+	border: 0;
+	border-radius: 5px;
+	font-family: 'Helvetica Neue Bold', sans-serif;
+	font-size: 24.48px;
+	color: #fff;
+	transition: all .2s;
+	}
+
+	.cart:hover {
+	width: 203px;
+	height: 48px;
+	}
+
+	.price__cart {
+	position: relative;
+	padding: 0px 10px 20px 10px;
+	border-bottom: 1px solid #d1d1d1;
+	}
+
+	.discount {
+	font-family: 'Segoe UI', sans-serif;
+	font-size: 17px;
+	color: #939292;
+	}
+
+	.price__container {
+	display: flex;
+	justify-content: space-between;
+	}
+
+
+
+ 
+	.zamok{
+	width:14px;
+	height:11px;
+	background:#7f7f7f;
+	display:block; 
+	position:relative;
+	margin-top: 10px;
+	}
+ 	
+ 	.zamok:before{
+	content:'';
+	height:7px;
+	width:7px;
+	display: block; 
+	border:2px solid #7f7f7f; 
+	border-bottom:none; 
+	border-radius:50px 50px 0 0;
+	-webkit-border-radius:50px 50px 0 0;
+	-moz-border-radius:50px 50px 0 0;
+	position:absolute;
+	top:-9px;
+	left: 1.95px;
+	}
+
+	.payment__inner {
+	padding: 10px 10px 20px 10px;
+	}
+
+	.paymet__container {
+	display: flex;
+	}
+
+	.shopping {
+	font-family: 'Helvetica Neue', sans-serif;
+	font-size: 15px;
+	color: #939292;
+	margin: 5px 0px 0px 10px; 
+	}
+
+	.images {
+	display: flex;
+	margin-top: 5px;
+	}
+
+	.images img {
+	margin: 0px 10px 0px 0px;
+	cursor: pointer;
+	}
+
+	.tabs {
+
+	margin: 15px 0px 0px 0px;
+	}
+
+	.tab1 {
+	background-color: #c2c2c2;
+	border: 0px;
+	width: 205px;	
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+	font-family: "Segoe UI", sans-serif;
+	border-radius: 5px 5px 0px 0px; 
+	}
+
+	.tab2 {
+	background-color: #c2c2c2;
+	border: 0px;
+	width: 135px;	
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+	font-family: "Segoe UI", sans-serif;
+	border-radius: 5px 5px 0px 0px; 
+	}
+
+	.info__block {
+	border: 1px solid #d5d2d2;
+	border-radius: 0px 5px 5px 5px;
+	width: 770px;
+	}
+
+	.info__inner {
+	padding: 25px;
+	}
+
+
+
+	.active {
+	display: none;	
+	}
+
+	.sidebar2 {
+	border: 1px solid #d5d2d2;
+	width: 100%;
+	height: 100%;
+	margin: 0px 0px 0px 10px; 
+	}
+
+	.sidebar__container {
+	display: flex;
+	}
+
+	.sidebar2__title {
+	font-family: "Segoe UI", sans-serif;
+	color: #7e7e7e;
+	font-size: 18px;
+	font-weight: 500;
+	}
+
+	.sidebar2__inner {
+	padding: 15px;
+	}
+
+	.book {
+	margin-top: 20px;
+	cursor: pointer;
+	display: flex;
+	border-bottom: 1px solid #d1d1d1;
+	}
+	
+	.image_book img {
+	width: 70px;
+	height: 100px;
+	}
+
+
+	.title__book2 {
+	font-family: "Segoe UI", sans-serif;
+	font-size: 15px;
+	color: #595959;
+	font-weight: 600;
+	margin: 10px 0px 0px 0px;	
+	}
+
+	.price__book2 {
+	color: #e45858;
+	font-size: 21.67px;
+	font-family: "Helvetica Neue", sans-serif;
+	margin-top: 3px;
+	}
+
+	.more__btn {
+	font-family: "Segoe WP", sans-serif;	
+	color: #fff;
+	background-color: #343434;
+	border: 0px;
+	font-size: 15px;
+	width: 85px;
+	height: 30px;
+
+	cursor: pointer;
+	margin-top: 5px;
+	border-radius: 5px;
+	}
+
+	.text__container {
+	margin-left: 5px;
+	}
+
+	.comments {
+	border: 1px solid #d5d2d2;
+	width: 100%;
+	margin-top: 10px;
+	border-radius: 5px;
+	}
+
+	.book__info2 {
+	display: flex;
+	flex-direction: column;
+	}
+
+	.comments__inner {
+	padding: 25px;
+	display: flex;
+	flex-direction: column;
+	}
+
+	.title__comments {
+	color: #7e7e7e;
+	font-size: 20px;
+	font-family: "Segoe UI", sans-serif;
+	font-weight: 500;
+	}
+
+	.users__item {
+	padding: 15px 0px 15px 0px;
+	width: 700px;
+	border-bottom: 1px solid #d1d1d1;
+	}
+
+	.text__container2 {
+	margin: 0px 0px 0px 20px;
+	}
+
+	.message {
+	font-family: "Segoe UI Symbold", sans-serif;
+	font-size: 14px;
+	color: #7e7e7e;
+	line-height: 1.35;
+	}
+
+	.users__inner {
+	display: flex;
+	}
+
+	.users__name {
+	font-family: "Segoe UI Symbold", sans-serif;
+	font-size: 14px;
+	color: #7e7e7e;
+	text-align: center;
+	margin-top: 10px;
+	}
+
+	.title__comment {
+	color: #7e7e7e;
+	font-size: 20px;
+	margin-top: 10px;
+	font-family: "Segoe UI", sans-serif;
+	font-weight: 500;
+	} 
+
+	.form__container {
+	display: flex;
+	max-width: 100%;
+	}
+
+	.name__users {
+	border-radius: 5px;
+	border: 1px solid #e2e2e2;
+	margin-left: 20px;
+	width: 610px;
+	height: 30px;
+	}
+
+	.name__user {
+	font-family: "Segoe UI", sans-serif;
+	font-size: 16px;
+	color: #a2a2a2;
+	}
+
+	.input {
+	width: 620px;
+	margin-left: 28px;
+	height: 60px;
+    padding: 5px 10px 5px 10px;
+	border-radius: 5px;
+	border: 1px solid #d5d2d2;
+	padding: 5px 5px 5px 5px;
+	font-family: "Segoe UI", sans-serif;
+	font-size: 16px;
+	}
+
+	.name {
+	width: 620px;
+	border-radius: 5px;
+	border: 1px solid #d5d2d2;
+	padding: 5px 5px 5px 5px;
+	font-family: "Segoe UI", sans-serif;
+	font-size: 16px;
+	}
+
+	.image__users {
+	width: 70px;
+	}
+
+	.image__users img {
+	width: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+	}
+
+
+
+	.text__info .active {
+	display: none;	
+	}
+
+	.active2 {
+	background: #fff;
+	color: #7e7e7e;
+	border: 1px solid #d5d2d2;	
+	}
+
+	.title__comments {
+	font-family: "Segoe WP", sans-serif;
+	}
+
+	.make__comments {
+	padding-top: 25px;
+	}
+
+	.submit {
+    background: linear-gradient(to bottom,#8fd271, #86c66a , #7bb461);
+    cursor: pointer;
+    width: 95px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 18.48px;
+    color: #fff;
+    transition: all .2s;
+    float: right;
+    margin-top: 15px; 
+	}
+
+	.images__users {
+    margin-top: 15px;	
+	}
+
+	.users__names {
+	display: flex;
+	margin-top: 15px;
+	}
+
+	.users__message {
+	display: flex;
+	justify-content: space-between;
+	}
+
+	.comment {
+	font-family: "Segoe UI", sans-serif;
+	font-size: 16px;
+	color: #a2a2a2;
+	}
+
+	.error__comments {
+	margin-top: 20px;
+	color: red;
+	font-size: 20px;
+	font-family: "Segoe UI", sans-serif;
+	font-weight: 500;
+	}
+
+
+
+
+
+
+
+
